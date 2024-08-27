@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+.main-div{
+    position: fixed;
+    width: 100%;
+    z-index: 997;
+    background-color: rgb(88, 88, 88);
+}
+.sub-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.brand {
+    color: white;
+}
+.start button {
+    color: white;
+    border: 2px solid #ffc451;
+}
+.start button:hover {
+    background-color: #ffc107;
+    cursor: pointer;
+}
+.Menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.Menu a:active{
+    color: #ffc451;
+}
+.Menu a:hover{
+    color: #f4b331;
+    cursor: pointer;
+}
+

@@ -1,0 +1,13 @@
+.eachBenefit{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: baseline;
+}
+.titleAndDetailOfBenefite{
+    display: flex;
+    flex-direction: column;
+}
+.eachBenefit svg {
+    transform: scale(1.8);
+}
